@@ -1,0 +1,8 @@
+#include<iostream.h>
+#include"kbc11.h"
+void main()
+	{
+	clrscr();
+	frontpage();
+	getch();
+	}
