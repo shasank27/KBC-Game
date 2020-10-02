@@ -70,7 +70,7 @@ void game()
 	int rupee=0;
 	int re[15];
 	char jonny[15][23]={"0","5000","10,000","20,000","40,000","80,000","1,60,000","3,20,000","6,40,000","12,50,000","25,00,000","50,00,000","1 Crore","5 Crore","7 Crore"};
-	char q[25][340]={"Q) What do koala eat?","Q) What do pandas eat?","Q) Among these which is not a cell organelle?","Q) Which among these is a constellation?","Q) When is Infinity War releasing?","Q) Who wrote 'The Ramayana'?","Q) Which the tallest grass?","Q) Who shot Malala?","Q) Which among them is !Outdoor game?","Q) Which among them is !indoor game?","Q) Who is genius among them?","Q) Currently Samsung is working on a ..","Q) iPhone X was launched with a..","Q) How is 'X' is pronounced in iPhone X?","Q) What is last phone launched by Apple Inc.?","Q) What is the latest version of Android?","Q) Where did Anushka Sharma studied?","Q) Delhi Public School shortens upto?","Q) 'What do you mean' was composed by?","Q) What do Monitors display?","Q) What helps us to type in computer?","Q) What is the brain of Computer?","Q) Who is the current Prime Minister of India?","Q) Who is the wife of Jethalal in TMKOC?","Q) How many periods are present in Modern Periodic Table?"};
+	char q[25][340]={"Q) What does koala eat?","Q) What does pandas eat?","Q) Among these which is not cell organelle?","Q) Which among these is a constellation?","Q) When is Infinity War releasing?","Q) Who wrote 'The Ramayana'?","Q) Which the tallest grass?","Q) Who shot Malala?","Q) Which among them is !Outdoor game?","Q) Which among them is !indoor game?","Q) Who is genius among them?","Q) Currently Samsung is working on a ..","Q) iPhone X was launched with a..","Q) How is 'X' is pronounced in iPhone X?","Q) What is last phone launched by Apple Inc.?","Q) What is the latest version of Android?","Q) Where did Anushka Sharma studied?","Q) Delhi Public School shortens upto?","Q) 'What do you mean' was composed by?","Q) What do Monitors display?","Q) What helps us to type in computer?","Q) What is the brain of Computer?","Q) Who is the current Prime Minister of India?","Q) Who is the wife of Jethalal in TMKOC?","Q) How many periods are present in Modern Periodic Table?"};
 	char a[25][34]={"D) Eucalyptus","B) Bamboo","C) Plasma","B) Leo","D) May 2018","D) Valmiki","C) Bamboo","D) Taliban","A) Carrom","C) Cricket","A) Shasank","B) Palm sensor","C) Face Sensor","A) Ten","D) iPhone 8+","B) Oreo","B) Margherita","C) D.P.S","D) Justin","C) Output","D) Keyboard","A) CPU","D) N. Modi","B) Daya","D) 7(Seven)"};
 
 	char r1[25][23]={"A) Suguaro","A) Suguaro","A) E.R","A) Earth","A) April 2018","A) Devdas","A) Saguaro","A) ULFA","A) Carrom","A) Carrom","A) Shasank","A) Iris sensor","A) Palm Sensor","A) Ten","A) iPhone 8","A) Nougat","A) Mumbai","A) D.S.S","A) The Rocks","A) Input","A) Mouse","A) CPU","A) J. Nehru","A) Anjali","A) 8(Eight)"};
@@ -309,6 +309,8 @@ void game()
 						gotoxy(2,6);
 						cprintf("You are correct");
 
+						z--;
+						z++;
 						z--;
 						rupee++;
 						delay(400);
@@ -577,22 +579,22 @@ void frontpage()
 	int c=17,r=6;
 	textcolor(14);gotoxy(c,r);
 	cprintf("_______________________________________________");gotoxy(c,++r);
-	cprintf("l                                             l");gotoxy(c,++r);
-	cprintf("l                                             l");gotoxy(c,++r);
-	cprintf("l      ##    ##   #######        #######      l");gotoxy(c,++r);
-	cprintf("l      ##   ##    ##    ##     ##             l");gotoxy(c,++r);
-	cprintf("l      ##  ##     ##     ##   ##              l");gotoxy(c,++r);
-	cprintf("l      ####       ########   ##               l");gotoxy(c,++r);
-	cprintf("l      ####       ########   ##               l");gotoxy(c,++r);
-	cprintf("l      ##  ##     ##    ##    ##              l");gotoxy(c,++r);
-	cprintf("l      ##   ##    ##     ##    ##             l");gotoxy(c,++r);
-	cprintf("l      ##    ##   ########      ########      l");gotoxy(c,++r);
-	cprintf("l                                             l");gotoxy(c,++r);
-	cprintf("l_____________________________________________l");gotoxy(c,++r);
-	cprintf("l                                             l");gotoxy(c,++r);
-	cprintf("l    Press Enter to Play                      l");gotoxy(c,++r);
-	cprintf("l    Press Escape to Exit                     l");gotoxy(c,++r);
-	cprintf("l_____________________________________________l");gotoxy(43,--r);
+	cprintf("|                                             |");gotoxy(c,++r);
+	cprintf("|                                             |");gotoxy(c,++r);
+	cprintf("|      ##    ##   #######        #######      |");gotoxy(c,++r);
+	cprintf("|      ##   ##    ##    ##     ##             |");gotoxy(c,++r);
+	cprintf("|      ##  ##     ##     ##   ##              |");gotoxy(c,++r);
+	cprintf("|      ####       ########   ##               |");gotoxy(c,++r);
+	cprintf("|      ####       ########   ##               |");gotoxy(c,++r);
+	cprintf("|      ##  ##     ##    ##    ##              |");gotoxy(c,++r);
+	cprintf("|      ##   ##    ##     ##    ##             |");gotoxy(c,++r);
+	cprintf("|      ##    ##   ########      ########      |");gotoxy(c,++r);
+	cprintf("|                                             |");gotoxy(c,++r);
+	cprintf("|_____________________________________________|");gotoxy(c,++r);
+	cprintf("|                                             |");gotoxy(c,++r);
+	cprintf("|    Press Enter to Play                      |");gotoxy(c,++r);
+	cprintf("|    Press Escape to Exit                     |");gotoxy(c,++r);
+	cprintf("|_____________________________________________|");gotoxy(43,--r);
 	int n;
 	while(n!=283)
 		{
